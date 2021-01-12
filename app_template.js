@@ -3,9 +3,9 @@ function tableCreate(){
     var body = document.body,
         tbl  = document.createElement('table');
 
-    for(var i = 0; i < inputRow; i++){
+    for(var i = 0; i < input-row; i++){
         var tr = tbl.insertRow();
-        for(var j = 0; j < inputCol; j++){
+        for(var j = 0; j < input-col; j++){
             if(i == 2 && j == 1){
                 break;
             } else {
